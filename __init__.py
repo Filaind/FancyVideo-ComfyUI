@@ -55,7 +55,7 @@ class FancyVideoNode:
         self.infer_pipeline = None
         snapshot_download(repo_id="qihoo360/FancyVideo",local_dir=now_dir,
                           ignore_patterns=["*md"])
-        snapshot_download(repo_id="runwayml/stable-diffusion-v1-5",
+        snapshot_download(repo_id="pt-sk/stable-diffusion-1.5",
                           local_dir=os.path.join(models_dir,"stable-diffusion-v1-5"),
                           ignore_patterns=["v1-5*","*.safetensors","*fp16*","*non_ema*"])
 
